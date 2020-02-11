@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "The Maidenhead Locator System is a geographic co-ordinate system used by amateur radio operators. Based on Michael Graff's maidenhead gem",
   "main": "./lib/maidenhead.js",
+  "types": "./src/maidenhead.d.ts",
   "url": "https://github.com/mehmetc/Maidenhead",
   "homepage": "https://github.com/mehmetc/Maidenhead",
   "repository": {
@@ -13,8 +14,9 @@
     "lib"
   ],
   "scripts": {
-    "build": "gulp",
-    "prepublish": "npm run build"
+    "build": "npm run typings && gulp",
+    "prepublish": "npm run build",
+    "typings": "tsc src/maidenhead.d.ts"
   },
   "keywords": [
     "maidenhead",
