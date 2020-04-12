@@ -1,14 +1,14 @@
 {
-  "name": "maidenhead",
-  "version": "1.0.7",
-  "description": "The Maidenhead Locator System is a geographic co-ordinate system used by amateur radio operators. Based on Michael Graff's maidenhead gem",
+  "name": "@amrato/maidenhead-ts",
+  "version": "2.0.0",
+  "description": "A TypeScript-enabled and refreshed fork of the maidenhead library.",
   "main": "./lib/maidenhead.js",
   "types": "./lib/maidenhead.d.ts",
-  "url": "https://github.com/mehmetc/Maidenhead",
-  "homepage": "https://github.com/mehmetc/Maidenhead",
+  "url": "https://github.com/paulirwin/Maidenhead",
+  "homepage": "https://github.com/paulirwin/Maidenhead",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mehmetc/Maidenhead.git"
+    "url": "https://github.com/paulirwin/Maidenhead.git"
   },
   "files": [
     "lib"
@@ -23,7 +23,7 @@
     "locator",
     "algorithm"
   ],
-  "author": "Mehmet Celik",
+  "author": "Paul Irwin, Mehmet Celik",
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^3.5.0",
